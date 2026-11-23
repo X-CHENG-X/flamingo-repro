@@ -114,6 +114,10 @@ python ../tools/verify.py runs/<dir>/sum.jsonl   # every round must report PASS
 python ../tools/plot.py                          # -> figures/
 ```
 
+> The plotting scripts default to the run-directory names used in this reproduction
+> (`runs/20261122_*`). Pass `--flamingo`, `--bbglr`, `--t10-flamingo`, `--t10-bbglr`
+> (and `--acc label=path` for accuracy curves) to point them at your own runs.
+
 ---
 
 ## Key results
