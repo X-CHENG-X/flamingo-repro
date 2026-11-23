@@ -57,7 +57,7 @@ pycryptodomex 3.24.2. **numpy ≥ 2 is not supported** by the upstream time-hand
 ### 2. Get the upstream code
 
 ```bash
-git clone <upstream-url> ppfl
+git clone https://github.com/eniac/flamingo ppfl
 ```
 
 The patches target the layout with `agent/flamingo/`, `agent/google_malicious/`,

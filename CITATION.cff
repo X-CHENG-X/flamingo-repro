@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Flamingo Reproduction Harness: patches, measurement tools and experiment report"
+message: "If you use this reproduction harness, please cite it and the original paper."
+type: software
+authors:
+  - family-names: "CX"
+    given-names: ""
+repository-code: "https://github.com/X-CHENG-X/flamingo-repro"
+license: MIT
+date-released: "2026-11-23"
+keywords:
+  - secure aggregation
+  - federated learning
+  - client dropouts
+  - reproduction
+references:
+  - type: conference-paper
+    title: "Flamingo: Multi-Round Single-Server Secure Aggregation with Client Dropouts"
+    authors:
+      - family-names: "Ma"
+      - family-names: "Servan-Schreiber"
+      - family-names: "Kumar"
+      - family-names: "Sun"
+      - family-names: "Popa"
+    conference:
+      name: "Advances in Cryptology -- CRYPTO 2023"
+    year: 2023
