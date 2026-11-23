@@ -1,0 +1,10 @@
+# 本复现使用的依赖版本（Python 3.10）
+# 注意：numpy >= 2 会破坏上游的时间处理代码
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.7.2
+scipy==1.13.1
+PyNaCl==1.6.2
+pycryptodomex==3.24.2
+matplotlib==3.10.9
+requests==2.34.2
